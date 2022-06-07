@@ -40,8 +40,8 @@ function appAvgScore(truth_app_os) {
 }
 function print(data) {
     var mydata = data.slice();
-    var newdata = GeneralES_1.generalESRun(data);
-    mydata[6] = (Math.round(((mydata[6]) + Number.EPSILON) * 100) / 100.0);
+    var newdata = Math.round(GeneralES_1.generalESRun(data));
+    mydata[6] = Math.round(mydata[6]);
     mydata.push(newdata);
     console.log(mydata.join(','));
 }
