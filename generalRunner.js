@@ -45,5 +45,4 @@ function print(data) {
     mydata.push(newdata);
     console.log(mydata.join(','));
 }
-console.log('UNSAFE_MANUFACTURER,EMAIL_MATCH_WEBSITE,TOO_MANY_HIGH_RISK_APPS,TOO_MANY_MED_RISK_APPS,APP_COUNT,ANDROID_OS_VERSION,APP_AVG_SCORE,DEVCIE_SCORE');
 tf_perm(4);
